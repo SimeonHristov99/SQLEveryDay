@@ -1,6 +1,6 @@
-# SQLEveryDay
+# SQLPractice
 
-Goal: Upload a solution to a database query problem. Solutions are written in PostgreSQL.
+Goal: Upload a solution to a database query problem. Solutions are written in PostgreSQL and Python.
 
 ## Task 1
 
