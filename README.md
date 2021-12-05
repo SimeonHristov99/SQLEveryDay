@@ -44,3 +44,58 @@ Tables:
 | from_type - varchar | age - int             |
 | to_type - varchar   |                       |
 | review_score - int  |                       |
+
+## Task 9
+
+Find all posts which were reacted to with a heart.
+
+Tables:
+
+| facebook_reactions | facebook_posts          |
+| ------------------ | ----------------------- |
+| poster - int       | post_id - int           |
+| friend - int       | poster - int            |
+| reaction - varchar | post_text - varchar     |
+| date_day - int     | post_keywords - varchar |
+| post_id - int      | post_date - datetime    |
+
+## Task 10
+
+Find the average number of beds in each neighborhood that has at least 3 beds in total. Output results along with the neighborhood name and sort the results based on the number of average beds in descending order.
+
+Table:
+
+| airbnb_search_details            |
+| -------------------------------- |
+| id - int                         |
+| price - float                    |
+| bed_type - varchar               |
+| host_identity_verified - varchar |
+| host_response_rate - varchar     |
+| host_since - datetime            |
+| neighbourhood - varchar          |
+| number_of_reviews - int          |
+| review_scores_rating - float     |
+| zipcode - int                    |
+| bedrooms - int                   |
+| beds - int                       |
+
+## Task 11
+
+Find the last time each bike was in use. Output both the bike number and the date-timestamp of the bike's last use (i.e., the date-time the bike was returned). Order the results by bikes that were most recently used.
+
+Table
+
+| dc_bikeshare_q1_2012    |
+| ----------------------- |
+| duration - varchar      |
+| duration_seconds - int  |
+| start_time - datetime   |
+| start_station - varchar |
+| start_terminal - int    |
+| end_time - datetime     |
+| end_station - varchar   |
+| end_terminal - int      |
+| bike_number - varchar   |
+| rider_type - varchar    |
+| id - int                |
