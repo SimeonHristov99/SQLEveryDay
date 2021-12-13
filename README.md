@@ -84,7 +84,7 @@ Table:
 
 Find the last time each bike was in use. Output both the bike number and the date-timestamp of the bike's last use (i.e., the date-time the bike was returned). Order the results by bikes that were most recently used.
 
-Table
+Table:
 
 | dc_bikeshare_q1_2012    |
 | ----------------------- |
@@ -99,3 +99,35 @@ Table
 | bike_number - varchar   |
 | rider_type - varchar    |
 | id - int                |
+
+## Task 12
+
+Return the total number of comments received for each user in the last 30 days. Don't output users who haven't received any comment in the defined time period. Assume today is 2020-02-10.
+
+Table:
+
+| fb_comments_count        |
+| ------------------------ |
+| user_id - int            |
+| created_at - datetime    |
+| number_of_comments - int |
+
+## Task 13
+
+Find all wineries which produce wines by possessing aromas of plum, cherry, rose, or hazelnut. Output unique winery values only.
+
+Table:
+
+| winemag_p1            |
+| --------------------- |
+| id - int              |
+| country - varchar     |
+| description - varchar |
+| designation - varchar |
+| points - int          |
+| price - float         |
+| province - varchar    |
+| region_1 - varchar    |
+| region_2 - varchar    |
+| variety - varchar     |
+| winery - varchar      |
