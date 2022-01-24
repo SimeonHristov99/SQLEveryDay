@@ -131,3 +131,19 @@ Table:
 | region_2 - varchar    |
 | variety - varchar     |
 | winery - varchar      |
+
+## Task 14
+
+Find the base pay for Police Captains. Output the employee name along with the corresponding base pay.
+
+| sf_public_salaries       |
+| ------------------------ |
+| id - int                 |
+| employeename - varchar   |
+| jobtitle - varchar       |
+| basepay - float          |
+| overtimepay - float      |
+| otherpay - float         |
+| benefits - float         |
+| totalpay - float         |
+| totalpaybenefits - float |
