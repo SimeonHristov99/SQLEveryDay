@@ -6,13 +6,39 @@ Goal: Upload a solution to a database query problem. Solutions are written in Po
 
 Write a query that calculates the difference between the highest salaries found in the marketing and engineering departments. Output just the difference in salaries.
 
+| db_employee          | db_dept              |
+| -------------------- | -------------------- |
+| id - int             | id - int             |
+| first_name - varchar | department - varchar |
+| last_name - varchar  |                      |
+| salary - int         |                      |
+| department_id - int  |                      |
+
 ## Task 2
 
 We have a table with employees and their salaries, however, some of the records are old and contain outdated salary information. Find the current salary of each employee assuming that salaries increase each year. Output their id, first name, last name, department ID, and current salary. Order your list by employee ID in ascending order.
 
+| ms_employee_salary    |
+| --------------------- |
+| id - int64            |
+| first_name - object   |
+| last_name - object    |
+| salary - int64        |
+| department_id - int64 |
+
 ## Task 3
 
 Find the average number of bathrooms and bedrooms for each city’s property types. Output the result along with the city name and the property type.
+
+
+| customers             | orders                      |
+| --------------------- | --------------------------- |
+| id - int64            | id - int64                  |
+| first_name - object   | cust_id - int64             |
+| last_name - object    | order_date - datetime64[ns] |
+| city - object         | order_details - object      |
+| address - object      | total_order_cost - int64    |
+| phone_number - object |
 
 ## Task 4
 
