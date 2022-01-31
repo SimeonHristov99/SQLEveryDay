@@ -30,7 +30,6 @@ We have a table with employees and their salaries, however, some of the records 
 
 Find the average number of bathrooms and bedrooms for each city’s property types. Output the result along with the city name and the property type.
 
-
 | customers             | orders                      |
 | --------------------- | --------------------------- |
 | id - int64            | id - int64                  |
@@ -44,6 +43,15 @@ Find the average number of bathrooms and bedrooms for each city’s property typ
 
 Find the details of each customer regardless of whether the customer made an order. Output the customer's first name, last name, and the city along with the order details. You may have duplicate rows in your results due to a customer ordering several of the same items. Sort records based on the customer's first name and the order details in ascending order.
 
+| customers             | orders                      |
+| --------------------- | --------------------------- |
+| id - int64            | id - int64                  |
+| first_name - object   | cust_id - int64             |
+| last_name - object    | order_date - datetime64[ns] |
+| city - object         | order_details - object      |
+| address - object      | total_order_cost - int64    |
+| phone_number - object |
+
 ## Task 5
 
 Facebook has developed a new programing language called Hack.To measure the popularity of Hack they ran a survey with their employees. The survey included data on previous programing familiarity as well as the number of years of experience, age, gender and most importantly satisfaction with Hack. Due to an error location data was not collected, but your supervisor demands a report showing average popularity of Hack by office location. Luckily the user IDs of employees completing the surveys were stored. Based on the above, find the average popularity of the Hack per office location. Output the location along with the average popularity.
@@ -51,6 +59,24 @@ Facebook has developed a new programing language called Hack.To measure the popu
 ## Task 6
 
 Compare each employee's salary with the average salary of the corresponding department. Output the department, first name, and salary of employees along with the average salary of that department.
+
+| employee                |
+| ----------------------- |
+| id - int64              |
+| first_name - object     |
+| last_name - object      |
+| age - int64             |
+| sex - object            |
+| employee_title - object |
+| department - object     |
+| salary - int64          |
+| target - int64          |
+| bonus - int64           |
+| email - object          |
+| city - object           |
+| address - object        |
+| manager_id - int64      |
+
 
 ## Task 7
 
