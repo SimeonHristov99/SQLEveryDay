@@ -32,14 +32,14 @@ We have a table with employees and their salaries, however, some of the records 
 
 Find the average number of bathrooms and bedrooms for each city’s property types. Output the result along with the city name and the property type.
 
-| customers             | orders                      |
-| --------------------- | --------------------------- |
-| id - int64            | id - int64                  |
-| first_name - object   | cust_id - int64             |
-| last_name - object    | order_date - datetime64[ns] |
-| city - object         | order_details - object      |
-| address - object      | total_order_cost - int64    |
-| phone_number - object |
+| airbnb_search_details  |
+| ---------------------- |
+| id - int64             |
+| price - float64        |
+| property_type - object |
+| bathrooms - int64      |
+| city - object          |
+| bedrooms - int64       |
 
 ## Task 4
 
