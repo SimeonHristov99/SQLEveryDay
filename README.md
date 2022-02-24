@@ -222,3 +222,13 @@ Assume that each friend request starts by a user sending (i.e., user_id_sender) 
 | user_id_receiver - varchar |
 | date - datetime            |
 | action - varchar           |
+
+## Task 16
+
+Find the total number of downloads for paying and non-paying users by date. Include only records where non-paying customers have more downloads than paying customers. The output should be sorted by earliest date first and contain 3 columns date, non-paying downloads, paying downloads.
+
+| ms_user_dimension | ms_acc_dimension          | ms_download_facts |
+| ----------------- | ------------------------- | ----------------- |
+| user_id - int     | acc_id - int              | date - datetime   |
+| acc_id - int      | paying_customer - varchar | user_id - int     |
+|                   |                           | downloads - int   |
