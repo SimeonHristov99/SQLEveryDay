@@ -232,3 +232,21 @@ Find the total number of downloads for paying and non-paying users by date. Incl
 | user_id - int     | acc_id - int              | date - datetime   |
 | acc_id - int      | paying_customer - varchar | user_id - int     |
 |                   |                           | downloads - int   |
+
+## Task 17
+
+Find the most profitable company from the financial sector. Output the result along with the continent.
+
+| forbes_global_2010_2014 |
+| ----------------------- |
+| company - varchar       |
+| sector - varchar        |
+| industry - varchar      |
+| continent - varchar     |
+| country - varchar       |
+| marketvalue - float     |
+| sales - float           |
+| profits - float         |
+| assets - float          |
+| rank - int              |
+| forbeswebpage - varchar |
