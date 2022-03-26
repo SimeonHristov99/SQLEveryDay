@@ -250,3 +250,31 @@ Find the most profitable company from the financial sector. Output the result al
 | assets - float          |
 | rank - int              |
 | forbeswebpage - varchar |
+
+## Task 18
+
+Create a simple SELECT query to display student information of all ACTIVE students.
+
+| students            |
+| ------------------- |
+| Id - int            |
+| FirstName - varchar |
+| LastName - varchar  |
+| IsActive - boolean  |
+
+Note: IsActive (true or false)
+
+## Task 19
+
+Return all columns from the *people* table, and join to the *toys* table so that you can return the COUNT of the toys.
+
+people table schema
+
+    id
+    name
+
+toys table schema
+
+    id
+    name
+    people_id
