@@ -327,3 +327,16 @@ id is the primary key column for this table.
 Each row of this table indicates the id of a customer, their name, and the id of the customer who referred them.
 
 Write an SQL query to report the IDs of the customer that are not referred by the customer with id = 2.
+
+## Task 23
+
+Find the titles of workers that earn the highest salary. Output the highest-paid title or multiple titles that share the highest salary.
+
+| worker                  | title                    |
+| ----------------------- | ------------------------ |
+| worker_id - int         | worker_ref_id - int      |
+| first_name - varchar    | worker_title - varchar   |
+| last_name - varchar     | affected_from - datetime |
+| salary - int            |
+| joining_date - datetime |
+| department - varchar    |
