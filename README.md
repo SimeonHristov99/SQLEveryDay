@@ -66,7 +66,6 @@ Facebook has developed a new programing language called Hack. To measure the pop
 | gender - object    | popularity - int64   |
 | is_senior - bool   |
 
-
 ## Task 6
 
 Compare each employee's salary with the average salary of the corresponding department. Output the department, first name, and salary of employees along with the average salary of that department.
@@ -340,3 +339,16 @@ Find the titles of workers that earn the highest salary. Output the highest-paid
 | salary - int            |
 | joining_date - datetime |
 | department - varchar    |
+
+## Task 24
+
+Find order details made by Jill and Eva. Consider the Jill and Eva as first names of customers. Output the order date, details and cost along with the first name. Order records based on the customer id in ascending order.
+
+| customers              | orders                  |
+| ---------------------- | ----------------------- |
+| id - int               | id - int                |
+| first_name - varchar   | cust_id - int           |
+| last_name - varchar    | order_date - datetime   |
+| city - varchar         | order_details - varchar |
+| address - varchar      | total_order_cost - int  |
+| phone_number - varchar |
